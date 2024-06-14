@@ -49,4 +49,10 @@ TestAutomationChallenge/
 To run the tests, navigate to the project directory and use the following command:
 
 ```sh
-pytest TestAutomationChallenge\user_creation_test.py
+pytest 
+pytest tests/test_admin_login.py
+pytest tests/test_customer_list.py
+pytest tests/test_dashboard.py
+pytest tests/test_login_new_user.py
+pytest tests/test_user_creation.py
+
